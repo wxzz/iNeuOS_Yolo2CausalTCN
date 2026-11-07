@@ -352,3 +352,15 @@ python inference.py --config other\tcn_config.json
 | 图片目录上万张时列表很慢 | 只加载前 1000 个文件名、只渲染前 200 行；用列表上方的“按文件名过滤”定位 |
 | 训练点了停止但显存没释放 | 停止现在会终止整棵进程树；若日志没有“进程已退出/已强制终止进程树”，重启 `web_server.py` |
 | 图像推理结果与标注回放差异大 | 训练特征来自标注，部署来自 YOLO 预测；建议用 YOLO 推理结果重建数据集 |
+
+## 参考文献
+（1）硬件网关：https://mp.weixin.qq.com/s/iKMqn62YIhBlXjGtY2wKXQ。
+（2）物联网（IOT）：https://mp.weixin.qq.com/s/5u4L8fItaFpIbVYOlxbmGg。
+（3）视觉分析（Vision）：https://mp.weixin.qq.com/s/SiiuXTTGplTAERRYyCmGCQ。
+（4）大模型智库（AiMind）：https://mp.weixin.qq.com/s/SH_q2k_zbQ-pcd05zj86-g。
+（5）大模型智能问数（AiInsight）: https://mp.weixin.qq.com/s/A1fIQq_w9c8SW9aEWVIsgw。
+（6）小i助手：https://mp.weixin.qq.com/s/5UCoYsDAbfFP-ZI2sj_QBg。
+（7）视觉模型：https://mp.weixin.qq.com/s/Gq74ITDfEwK88jt8b--1PA。
+
+## 官方网站
+http://www.ineuos.net

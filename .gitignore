@@ -1,0 +1,6 @@
+__pycache__
+.pytest_cache
+.venv
+.web_tmp
+tcn_datasets/*
+yolo_datasets/*

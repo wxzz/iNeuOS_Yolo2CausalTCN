@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>时序模型训练</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/tabs.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>时序模型训练</h1>
+    <div id="statusbar" class="statusbar"></div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-tab="1">① 源数据集</button>
+    <button class="tab" data-tab="2">② 数据映射</button>
+    <button class="tab" data-tab="3">③ 模型训练</button>
+    <button class="tab" data-tab="4">④ 模型验证</button>
+  </nav>
+
+  <main>
+    <section id="panel-1" class="panel active"></section>
+    <section id="panel-2" class="panel"></section>
+    <section id="panel-3" class="panel"></section>
+    <section id="panel-4" class="panel"></section>
+  </main>
+
+  <div id="toasts" class="toasts"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

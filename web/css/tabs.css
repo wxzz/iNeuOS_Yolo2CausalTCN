@@ -1,0 +1,67 @@
+/* 各 Tab 的专属样式 */
+
+.toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+.verify-actions { margin-top: 10px; }
+
+.dataset-name { font-weight: 600; }
+.dataset-name .badge { margin-left: 6px; font-weight: 400; }
+.dataset-sub { color: var(--muted); font-size: 12px; }
+
+.weights-cell { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.weights-cell input[type="text"] { min-width: 200px; }
+
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.dot.ok { background: var(--ok); }
+.dot.warn { background: var(--warn); }
+.dot.err { background: var(--err); }
+.dot.idle { background: #cbd5e1; }
+
+.split-list { color: var(--muted); font-size: 12px; }
+
+.global-table td.names { font-family: Consolas, "Courier New", monospace; }
+
+.step-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.step-head { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.step-head .id { color: var(--muted); font-size: 12px; }
+/* 保存配置 / 构建数据集：放在最后一步下面 */
+.step-actions { margin: 12px 0 0; padding-top: 10px; border-top: 1px dashed var(--border); }
+.step-head input.step-id { width: 68px; padding: 6px 4px; text-align: center; font-weight: 600; }
+/* 规则参数直接平铺在步骤头部：换行时删除按钮仍排在最后 */
+.step-head label.param { display: flex; gap: 6px; align-items: center; white-space: nowrap; }
+.step-head label.param.grow { flex: 1 1 260px; min-width: 0; }
+.step-head input[type="text"].path { min-width: 200px; flex: 1 1 auto; }
+.step-head input[type="number"] { width: 96px; }
+
+.metric-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+.metric { border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; }
+.metric .k { color: var(--muted); font-size: 12px; }
+.metric .v { font-size: 16px; font-weight: 600; overflow-wrap: anywhere; }
+/* 长文本（如 checkpoint 路径）独占整行，避免超出卡片宽度 */
+.metric-grid .metric.full { grid-column: 1 / -1; }
+
+.result-toolbar { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; flex-wrap: wrap; }
+.table-wrap { max-height: 380px; overflow: auto; border: 1px solid var(--border); border-radius: 6px; }
+.table-wrap table { border: none; }
+.table-wrap thead th { position: sticky; top: 0; z-index: 1; white-space: nowrap; }
+.table-wrap td.actions { white-space: nowrap; text-align: right; }
+
+.file-list { max-height: 220px; overflow: auto; border: 1px solid var(--border); border-radius: 6px; padding: 6px; }
+.file-list label { display: flex; gap: 6px; align-items: center; padding: 3px 4px; border-radius: 4px; cursor: pointer; }
+.file-list label:hover { background: #f1f5f9; }
+.file-list .thumb {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #f8fafc;
+}
+
+.inline-note { background: #f8fafc; border: 1px dashed var(--border); border-radius: 6px; padding: 8px 10px; color: var(--muted); font-size: 12px; }

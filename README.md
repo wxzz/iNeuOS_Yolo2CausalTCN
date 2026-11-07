@@ -355,11 +355,17 @@ python inference.py --config other\tcn_config.json
 
 ## 参考文献
 （1）硬件网关：https://mp.weixin.qq.com/s/iKMqn62YIhBlXjGtY2wKXQ。
+
 （2）物联网（IOT）：https://mp.weixin.qq.com/s/5u4L8fItaFpIbVYOlxbmGg。
+
 （3）视觉分析（Vision）：https://mp.weixin.qq.com/s/SiiuXTTGplTAERRYyCmGCQ。
+
 （4）大模型智库（AiMind）：https://mp.weixin.qq.com/s/SH_q2k_zbQ-pcd05zj86-g。
+
 （5）大模型智能问数（AiInsight）: https://mp.weixin.qq.com/s/A1fIQq_w9c8SW9aEWVIsgw。
+
 （6）小i助手：https://mp.weixin.qq.com/s/5UCoYsDAbfFP-ZI2sj_QBg。
+
 （7）视觉模型：https://mp.weixin.qq.com/s/Gq74ITDfEwK88jt8b--1PA。
 
 ## 官方网站
